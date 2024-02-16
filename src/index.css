@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+html, body {
+  margin: !important;
+  height: 100% !important; 
+  overflow: hidden !important;
+  background-color: gray;
+}
+
+
+.react-chatbot-kit-chat-container {
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    //max-width: 500px !important;
+
+}
+.react-chatbot-kit-chat-inner-container{
+    height: 100% !important;
+}
+
+.react-chatbot-kit-chat-message-container{
+    height: 90% !important;
+    //padding: 0 27.5px 170px 27.5px !important;
+}
+
+/* PC , 테블릿 가로 (해상도 768px ~ 1023px)*/ 
+@media all and (min-width:768px)  { 
+.react-chatbot-kit-chat-container {
+    max-width: 500px !important;
+    left: calc(50% - 250px) !important;
+
+  }
+} 
+
+
